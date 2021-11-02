@@ -9,7 +9,8 @@ const Application = () => {
             {counter}
             <br/>
             <button onClick={() => setcounter(counter + 1)}>Increase</button>
-            Hello, world! !
+            <button onClick={() => setcounter(counter - 1)}>Decrease</button>
+            Hello, world!
         </div>
     );
 }
